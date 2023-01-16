@@ -1,4 +1,4 @@
-#mencari bilangan prima
+#digunakan untuk mencari bilangan prima
 def isprime(num):
     if num > 1:  
         for n in range(2,num):  
@@ -10,6 +10,7 @@ def isprime(num):
       
 
 #mencari ya, yb, dan shared key
+#digunakan untuk mencari ya, yb, dan shared key dengan masukan berupa nilai g, p, dan secret key a dan secret key b
 def user():
   g = int(input("Masukkan nilai g: "))
   p = int(input("Masukkan nilai p (prima): "))
@@ -31,6 +32,7 @@ def user():
 
 
 #mencari xa, xb, dan shared key
+#digunakan untuk mencari nilai secret key a dan secret key b dan shared key dengan masukan berupa nilai g, p, ya, dan yb
 def attacker():
   g = int(input("Masukkan nilai g: "))
   p = int(input("Masukkan nilai p (prima): "))
