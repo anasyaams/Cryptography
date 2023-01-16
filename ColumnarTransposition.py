@@ -1,6 +1,6 @@
-#enkripsi
 import numpy as np
 
+#enkripsi
 def enkripsi(plaintext):
 
   #mencari urutan key
